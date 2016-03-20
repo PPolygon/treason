@@ -28,7 +28,7 @@ var nextGameId = 1;
 var nextPlayerId = 1;
 
 var MIN_PLAYERS = 2;
-var MAX_PLAYERS = 6;
+var MAX_PLAYERS = 12;
 
 var epithets;
 
