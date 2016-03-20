@@ -17,7 +17,7 @@ var rand = require('random-seed')();
 
 var argv = require('optimist')
     .usage('$0 [--debug] [--port <port>] [--log <logfile>]')
-    .default('port', 8080)
+    .default('port', process.env.PORT)
     .default('log', 'treason.log')
     .argv;
 
