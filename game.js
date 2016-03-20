@@ -896,7 +896,7 @@ module.exports = function createGame(options) {
             }
         }
         var deck = [];
-        for (var i = 0; i < 3; i++) {
+        for (var i = 0; i < 5; i++) {
             deck = deck.concat(Object.keys(roles));
         }
         return shuffle(deck);
